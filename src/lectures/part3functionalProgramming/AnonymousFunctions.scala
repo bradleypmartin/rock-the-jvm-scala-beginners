@@ -2,6 +2,18 @@ package lectures.part3functionalProgramming
 
 object AnonymousFunctions extends App {
 
+  // takeaways
+  /*
+  Instead of passing anonymous FunctionX instances every time,
+  we can use Lambdas:
+
+  (x, y) => x + y
+  e.g. (name: String, age: Int) => name + " is " + age + " years old"
+
+  further sugar:
+  val add: (Int, Int) => Int = _ + _
+   */
+
   // object-oriented way to define
   val doubler = new Function1[Int, Int] {
     override def apply(x: Int) = x * 2
