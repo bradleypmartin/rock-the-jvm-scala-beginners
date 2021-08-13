@@ -1,5 +1,7 @@
 package exercises.part2oop
 
+import scala.language.postfixOps
+
 object MethodNotationExercises extends App {
   // 1 overload + operator that receives String and returns another person
   //   with nickname (overload infix operator)
